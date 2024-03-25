@@ -5,6 +5,7 @@ import {MatCardModule} from '@angular/material/card';
 import { AppComponent } from './app.component';
 import { BoardHeaderComponent } from './components/board-header/board-header.component';
 import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {MatInputModule} from '@angular/material/input';
   imports: [
     BrowserModule,
     MatCardModule,
-    MatInputModule
+    MatInputModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
