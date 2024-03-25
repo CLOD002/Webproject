@@ -4,14 +4,18 @@ import {MatCardModule} from '@angular/material/card';
 
 import { AppComponent } from './app.component';
 import { BoardHeaderComponent } from './components/board-header/board-header.component';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BoardHeaderComponent
+    BoardHeaderComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatCardModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
