@@ -1,0 +1,32 @@
+.menuDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.menuCard{
+    display: flex;
+    width: 100%;
+}
+
+.menuHeader{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: 500;
+}
+
+.menuContent{
+    margin: 1%;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+}
+
+.sectionHeader{
+    text-align: center;
+    background-color: lightgray;
+}
