@@ -11,12 +11,14 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatSelectModule} from '@angular/material/select';
 import {MatButtonModule} from '@angular/material/button';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { BoardViewComponent } from './components/board-view/board-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BoardHeaderComponent,
     MenuComponent,
+    BoardViewComponent,
     
   ],
   imports: [
