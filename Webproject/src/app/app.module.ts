@@ -13,6 +13,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { BoardViewComponent } from './components/board-view/board-view.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BoardTemplateComponent } from './components/board-template/board-template.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BoardHeaderComponent,
     MenuComponent,
     BoardViewComponent,
+    BoardTemplateComponent,
     
   ],
   imports: [
