@@ -1,6 +1,6 @@
 <div class="body">
     <div class="taskbar">
-        <mat-form-field class="selectBoardBtn">
+        <mat-form-field class="taskbar-actions">
             <mat-label>Boards</mat-label>
             <mat-select>
                 <mat-option>Feature Board</mat-option>
@@ -8,12 +8,12 @@
             </mat-select>
         </mat-form-field>
     
-        <button mat-button class="addBtn">
+        <button mat-button class="taskbar-actions">
             <mat-icon>add</mat-icon>
             add Item
         </button>
     
-        <mat-form-field class="FilterBtn">
+        <mat-form-field class="taskbar-actions">
             <mat-label>Sort by:</mat-label>
             <mat-select>
                 <mat-option></mat-option>
@@ -23,19 +23,21 @@
             </mat-select>
         </mat-form-field>
     
-        <mat-form-field>
+        <mat-form-field class="taskbar-actions">
             <mat-label>Sprint: </mat-label>
             <mat-select>
                 <mat-option></mat-option>
             </mat-select>
         </mat-form-field>
-    
-        <button mat-button>
-            <mat-icon>settings</mat-icon>
-        </button>
+
+        <div>
+            <button mat-button class="taskbar-actions">
+                <mat-icon>settings</mat-icon>
+            </button>
+        </div>
     </div>
 
     <div class="board">
-        
+        <app-board-template></app-board-template>
     </div>
 </div>

@@ -1,9 +1,15 @@
 .body{
     display: flex;
+    flex-direction: column;
 }
 .taskbar{
-    
+    display: flex;
+    flex-direction: row;
 }
-.addBtn{
-    background-color: lightblue;
+.taskbar-actions{
+    display: flex;
+    align-content: space-around;
+    margin: 0.5%;
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+    
 }
