@@ -14,6 +14,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import { BoardViewComponent } from './components/board-view/board-view.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BoardTemplateComponent } from './components/board-template/board-template.component';
+import {DragDropModule} from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { BoardTemplateComponent } from './components/board-template/board-templa
     MatButtonModule,
     MatExpansionModule,
     BrowserAnimationsModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,21 +1,51 @@
 <div class="board">
-    <div class="column">
+    <div class="column" 
+        cdkDropList
+        #newList="cdkDropList"
+        [cdkDropListData]="new"
+        [cdkDropListConnectedTo]="[approvedList]"
+        (cdkDropListDropped)="drop($event)">
         <div class="column-title">New</div>
+        <mat-card *ngFor="let item of new" cdkDrag>{{item}}</mat-card>
     </div>
 
-    <div class="column">
+    <div class="column"
+        cdkDropList
+        #approvedList="cdkDropList"
+        [cdkDropListData]="approved"
+        [cdkDropListConnectedTo]="[newList]"
+        (cdkDropListDropped)="drop($event)">
         <div class="column-title">Approved</div>
+        <mat-card *ngFor="let item of approved" cdkDrag>{{item}}</mat-card>
     </div>
 
-    <div class="column">
+    <div class="column"
+        cdkDropList
+        #comittedList="cdkDropList"
+        [cdkDropListData]="comitted"
+        [cdkDropListConnectedTo]="[approvedList]"
+        (cdkDropListDropped)="drop($event)">
         <div class="column-title">Comitted</div>
+        <mat-card *ngFor="let item of comitted" cdkDrag>{{item}}</mat-card>
     </div>
 
-    <div class="column">
+    <div class="column"
+        cdkDropList
+        #testingList="cdkDropList"
+        [cdkDropListData]="testing"
+        [cdkDropListConnectedTo]="[comittedList]"
+        (cdkDropListDropped)="drop($event)">
         <div class="column-title">Testing</div>
+        <mat-card *ngFor="let item of testing" cdkDrag>{{item}}</mat-card>
     </div>
 
-    <div class="column">
+    <div class="column"
+        cdkDropList
+        #doneList="cdkDropList"
+        [cdkDropListData]="done"
+        [cdkDropListConnectedTo]="[testingList]"
+        (cdkDropListDropped)="drop($event)">
         <div class="column-title">Done</div>
+        <mat-card *ngFor="let item of done" cdkDrag>{{item}}</mat-card>
     </div>
 </div>
