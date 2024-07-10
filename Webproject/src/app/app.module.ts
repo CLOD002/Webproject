@@ -17,6 +17,8 @@ import { BoardTemplateComponent } from './components/boards/backlog-items-board/
 import {DragDropModule} from '@angular/cdk/drag-drop';
 import { RouterModule } from '@angular/router';
 import { FeatureBoardComponent } from './components/boards/feature-board/feature-board.component';
+import { LoginComponent } from './components/login/login.component';
+import { ProfileComponent } from './components/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { FeatureBoardComponent } from './components/boards/feature-board/feature
     BoardViewComponent,
     BoardTemplateComponent,
     FeatureBoardComponent,
+    LoginComponent,
+    ProfileComponent,
     
   ],
   imports: [
