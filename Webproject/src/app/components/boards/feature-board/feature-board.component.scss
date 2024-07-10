@@ -1,0 +1,38 @@
+.board{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: inline-block;
+    background: rgba($color: lightblue, $alpha: 0.5);
+    min-height: 50%;
+    min-width: 30%;
+    padding: 1%;
+    margin: 1%;
+}
+
+.column-title{
+    font-size: large;
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+    text-transform: uppercase;
+}
+
+.taskbar-actions{
+    display: flex;
+    align-content: space-around;
+    margin: 0.5%;
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+    min-width: 30%;
+}
+
+.taskbar-btn-div{
+    display: flex;
+    margin-top: 2%;
+    min-width: 15%;
+}
+
+.taskbar-btn{
+    background-color: #cb99c9;
+
+}
