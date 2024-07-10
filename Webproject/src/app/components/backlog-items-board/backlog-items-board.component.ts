@@ -8,9 +8,9 @@ import {
 } from '@angular/cdk/drag-drop';
 
 @Component({
-  selector: 'app-board-template',
-  templateUrl: './board-template.component.html',
-  styleUrls: ['./board-template.component.scss']
+  selector: 'app-backlog-items-board',
+  templateUrl: './backlog-items-board.component.html',
+  styleUrls: ['./backlog-items-board.component.scss']
 })
 export class BoardTemplateComponent {
   new = ['Item1', 'Item2', 'Item3'];

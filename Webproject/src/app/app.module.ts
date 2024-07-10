@@ -13,8 +13,9 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { BoardViewComponent } from './components/board-view/board-view.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { BoardTemplateComponent } from './components/board-template/board-template.component';
+import { BoardTemplateComponent } from './components/backlog-items-board/backlog-items-board.component';
 import {DragDropModule} from '@angular/cdk/drag-drop';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
     MatButtonModule,
     MatExpansionModule,
     BrowserAnimationsModule,
-    DragDropModule
+    DragDropModule,
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
