@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BoardTemplateComponent } from './components/backlog-items-board/backlog-items-board.component';
 import {DragDropModule} from '@angular/cdk/drag-drop';
 import { RouterModule } from '@angular/router';
+import { FeatureBoardComponent } from './feature-board/feature-board.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { RouterModule } from '@angular/router';
     MenuComponent,
     BoardViewComponent,
     BoardTemplateComponent,
+    FeatureBoardComponent,
     
   ],
   imports: [
