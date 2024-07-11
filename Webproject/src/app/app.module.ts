@@ -19,6 +19,7 @@ import { RouterModule } from '@angular/router';
 import { FeatureBoardComponent } from './components/boards/feature-board/feature-board.component';
 import { LoginComponent } from './components/login/login.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { OverviewComponent } from './components/overview/overview/overview.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ProfileComponent } from './components/profile/profile.component';
     FeatureBoardComponent,
     LoginComponent,
     ProfileComponent,
+    OverviewComponent,
     
   ],
   imports: [
