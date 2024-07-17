@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {MatCardModule} from '@angular/material/card';
+import { provideRouter } from '@angular/router';
+import {routes} from './app-routing.module'
+import { RouterOutlet } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { BoardHeaderComponent } from './components/boards/board-header/board-header.component';
@@ -11,11 +14,10 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatSelectModule} from '@angular/material/select';
 import {MatButtonModule} from '@angular/material/button';
 import {MatExpansionModule} from '@angular/material/expansion';
-import { BoardViewComponent } from './components/boards/board-view/board-view.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BoardTemplateComponent } from './components/boards/backlog-items-board/backlog-items-board.component';
 import {DragDropModule} from '@angular/cdk/drag-drop';
-import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 import { FeatureBoardComponent } from './components/boards/feature-board/feature-board.component';
 import { LoginComponent } from './components/login/login.component';
 import { ProfileComponent } from './components/profile/profile.component';
@@ -26,7 +28,6 @@ import { OverviewComponent } from './components/overview/overview/overview.compo
     AppComponent,
     BoardHeaderComponent,
     MenuComponent,
-    BoardViewComponent,
     BoardTemplateComponent,
     FeatureBoardComponent,
     LoginComponent,
@@ -36,6 +37,7 @@ import { OverviewComponent } from './components/overview/overview/overview.compo
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     MatCardModule,
     MatInputModule,
     MatIconModule,
@@ -45,9 +47,9 @@ import { OverviewComponent } from './components/overview/overview/overview.compo
     MatExpansionModule,
     BrowserAnimationsModule,
     DragDropModule,
-    RouterModule,
+    RouterOutlet
   ],
-  providers: [],
+  providers: [provideRouter(routes)],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
