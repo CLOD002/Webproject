@@ -6,7 +6,7 @@ import {routes} from './app-routing.module'
 import { RouterOutlet } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { BoardHeaderComponent } from './components/boards/board-header/board-header.component';
+import { AppHeaderComponent } from './components/boards/app-header/app-header.component';
 import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import { MenuComponent } from './components/menu/menu.component';
@@ -26,7 +26,7 @@ import { OverviewComponent } from './components/overview/overview/overview.compo
 @NgModule({
   declarations: [
     AppComponent,
-    BoardHeaderComponent,
+    AppHeaderComponent,
     MenuComponent,
     BoardTemplateComponent,
     FeatureBoardComponent,
