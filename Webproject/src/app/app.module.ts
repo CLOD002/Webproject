@@ -6,7 +6,7 @@ import {routes} from './app-routing.module'
 import { RouterOutlet } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { AppHeaderComponent } from './components/boards/app-header/app-header.component';
+import { AppHeaderComponent } from './components/app-header/app-header.component';
 import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import { MenuComponent } from './components/menu/menu.component';
