@@ -22,6 +22,7 @@ import { FeatureBoardComponent } from './components/boards/feature-board/feature
 import { LoginComponent } from './components/login/login.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { OverviewComponent } from './components/overview/overview/overview.component';
+import { WorkitemComponent } from './components/boards/workitem/workitem.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { OverviewComponent } from './components/overview/overview/overview.compo
     LoginComponent,
     ProfileComponent,
     OverviewComponent,
+    WorkitemComponent,
     
   ],
   imports: [
