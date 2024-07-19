@@ -23,6 +23,7 @@ import { LoginComponent } from './components/login/login.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { OverviewComponent } from './components/overview/overview/overview.component';
 import { WorkitemComponent } from './components/boards/workitem/workitem.component';
+import {MatRippleModule} from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { WorkitemComponent } from './components/boards/workitem/workitem.compone
     MatExpansionModule,
     BrowserAnimationsModule,
     DragDropModule,
-    RouterOutlet
+    RouterOutlet,
+    MatRippleModule
   ],
   providers: [provideRouter(routes)],
   bootstrap: [AppComponent]
