@@ -9,7 +9,7 @@
             [cdkDropListConnectedTo]="[approvedList]"
             (cdkDropListDropped)="drop($event)">
             <div class="column-title">New</div>
-            <mat-card *ngFor="let item of new" cdkDrag>{{item}}</mat-card>
+            <app-workitem *ngFor="let item of new" cdkDrag>{{item}}</app-workitem>
             <div class="taskbar-btn-div">
                 <button mat-button class="taskbar-actions taskbar-btn">
                     <mat-icon>add</mat-icon>
@@ -25,7 +25,7 @@
             [cdkDropListConnectedTo]="[newList, comittedList]"
             (cdkDropListDropped)="drop($event)">
             <div class="column-title">Approved</div>
-            <mat-card *ngFor="let item of approved" cdkDrag>{{item}}</mat-card>
+            <app-workitem *ngFor="let item of approved" cdkDrag>{{item}}</app-workitem>
             <div class="taskbar-btn-div">
                 <button mat-button class="taskbar-actions taskbar-btn">
                     <mat-icon>add</mat-icon>
@@ -41,7 +41,7 @@
             [cdkDropListConnectedTo]="[approvedList, testingList]"
             (cdkDropListDropped)="drop($event)">
             <div class="column-title">Comitted</div>
-            <mat-card *ngFor="let item of comitted" cdkDrag>{{item}}</mat-card>
+            <app-workitem *ngFor="let item of comitted" cdkDrag>{{item}}</app-workitem>
             <div class="taskbar-btn-div">
                 <button mat-button class="taskbar-actions taskbar-btn">
                     <mat-icon>add</mat-icon>
@@ -57,7 +57,7 @@
             [cdkDropListConnectedTo]="[comittedList, doneList]"
             (cdkDropListDropped)="drop($event)">
             <div class="column-title">Testing</div>
-            <mat-card *ngFor="let item of testing" cdkDrag>{{item}}</mat-card>
+            <app-workitem *ngFor="let item of testing" cdkDrag>{{item}}</app-workitem>
             <div class="taskbar-btn-div">
                 <button mat-button class="taskbar-actions taskbar-btn">
                     <mat-icon>add</mat-icon>
@@ -73,23 +73,12 @@
             [cdkDropListConnectedTo]="[testingList]"
             (cdkDropListDropped)="drop($event)">
             <div class="column-title">Done</div>
-            <mat-card *ngFor="let item of done" cdkDrag>{{item}}</mat-card>
+            <app-workitem *ngFor="let item of done" cdkDrag>{{item}}</app-workitem>
             <div class="taskbar-btn-div">
                 <button mat-button class="taskbar-actions taskbar-btn">
                     <mat-icon>add</mat-icon>
                     add Item
                 </button>
-            </div>
-            <div>
-                <mat-card>
-                    <mat-card-title>Title</mat-card-title>
-                    <mat-card-subtitle>Owner</mat-card-subtitle>
-                    <mat-card-subtitle>
-                        State: 
-                        <mat-expansion-panel></mat-expansion-panel>
-                    </mat-card-subtitle>
-                </mat-card>
-                <mat-divider></mat-divider>
             </div>
         </div>
     </div>
