@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd2ff05d-2773-42a0-82fd-6f4114e76484" name="Changes" comment="push for changing repo">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CLOD002_Webprojekt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Webproject/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Webproject/src/styles.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/symfony-docker/symfony-docker/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/symfony-docker/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Backend" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/composer" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/runtime/frankenphp-symfony" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/symfony-docker/vendor/symfony/var-dumper" />
+    </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2jgxcja2Wt5knSwQkcus6L3gJ7a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;WI-19277-Webprojekt&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CLOD002/Webprojekt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\CLOD002\\Webprojekt\\Webproject\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PS-241.14494.237" />
+        <option value="bundled-php-predefined-ba97393d7c68-8f0632a2a215-com.jetbrains.php.sharedIndexes-PS-241.14494.237" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd2ff05d-2773-42a0-82fd-6f4114e76484" name="Changes" comment="" />
+      <created>1721822602494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721822602494</updated>
+      <workItem from="1721822603591" duration="312000" />
+      <workItem from="1721822942333" duration="61000" />
+      <workItem from="1723182910070" duration="9001000" />
+      <workItem from="1723443074256" duration="25000" />
+      <workItem from="1723444291413" duration="57000" />
+      <workItem from="1723448247278" duration="103000" />
+      <workItem from="1723465701268" duration="1668000" />
+      <workItem from="1723712034653" duration="92000" />
+      <workItem from="1723712268607" duration="66000" />
+      <workItem from="1723712529501" duration="45000" />
+      <workItem from="1724134287164" duration="232000" />
+      <workItem from="1727095277038" duration="3831000" />
+      <workItem from="1727676923118" duration="13157000" />
+      <workItem from="1727782514952" duration="915000" />
+      <workItem from="1727788280172" duration="594000" />
+      <workItem from="1732541730946" duration="6011000" />
+      <workItem from="1732624797720" duration="98000" />
+      <workItem from="1732869626768" duration="972000" />
+      <workItem from="1732871449526" duration="475000" />
+      <workItem from="1732871939130" duration="841000" />
+    </task>
+    <task id="LOCAL-00001" summary="saved project">
+      <option name="closed" value="true" />
+      <created>1721822771465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721822771465</updated>
+    </task>
+    <task id="LOCAL-00002" summary="saved project">
+      <option name="closed" value="true" />
+      <created>1723183835060</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723183835060</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added datamodel">
+      <option name="closed" value="true" />
+      <created>1727681097161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727681097161</updated>
+    </task>
+    <task id="LOCAL-00004" summary="push for changing repo">
+      <option name="closed" value="true" />
+      <created>1732871597033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732871597033</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Backend" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="saved project" />
+    <MESSAGE value="added datamodel" />
+    <MESSAGE value="push for changing repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="push for changing repo" />
+  </component>
+</project>
