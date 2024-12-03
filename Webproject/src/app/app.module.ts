@@ -24,6 +24,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { OverviewComponent } from './components/overview/overview/overview.component';
 import { WorkitemComponent } from './components/boards/workitem/workitem.component';
 import {MatRippleModule} from '@angular/material/core';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import {MatRippleModule} from '@angular/material/core';
     ProfileComponent,
     OverviewComponent,
     WorkitemComponent,
+    ProjectsComponent,
     
   ],
   imports: [
