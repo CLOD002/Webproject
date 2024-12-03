@@ -25,6 +25,8 @@ import { OverviewComponent } from './components/overview/overview/overview.compo
 import { WorkitemComponent } from './components/boards/workitem/workitem.component';
 import {MatRippleModule} from '@angular/material/core';
 import { ProjectsComponent } from './components/projects/projects.component';
+import {MatListModule} from "@angular/material/list";
+import { ProjectItemComponent } from './components/libs/project-item/project-item.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     OverviewComponent,
     WorkitemComponent,
     ProjectsComponent,
-    
+    ProjectItemComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -53,7 +56,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     BrowserAnimationsModule,
     DragDropModule,
     RouterOutlet,
-    MatRippleModule
+    MatRippleModule,
+    MatListModule
   ],
   providers: [provideRouter(routes)],
   bootstrap: [AppComponent]

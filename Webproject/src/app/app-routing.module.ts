@@ -5,13 +5,15 @@ import { FeatureBoardComponent } from './components/boards/feature-board/feature
 import { LoginComponent } from './components/login/login.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { OverviewComponent } from './components/overview/overview/overview.component';
+import {ProjectsComponent} from "./components/projects/projects.component";
 
 export const routes: Routes = [
     {path: 'backlog', component: BoardTemplateComponent},
     {path: 'feature', component: FeatureBoardComponent},
     {path: 'login', component: LoginComponent},
     {path: 'profile', component: ProfileComponent},
-    {path: 'overview', component: OverviewComponent}
+    {path: 'overview', component: OverviewComponent},
+    {path: 'projects', component: ProjectsComponent}
 ];
 
 const isIframe = window !== window.parent && !window.opener;
@@ -30,5 +32,5 @@ const isIframe = window !== window.parent && !window.opener;
 })
 
 export class AppRoutingModule {
-    
+
 }
